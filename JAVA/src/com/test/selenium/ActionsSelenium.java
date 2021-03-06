@@ -18,9 +18,14 @@ public class ActionsSelenium {
 		driver.manage().window().maximize();
 		Actions action = new Actions(driver);
 		WebElement completeWebFormElement = driver.findElement(By.xpath("//div/li//a[text()='Complete Web Form' and @href='/form']"));
-		action.moveToElement(completeWebFormElement).build().perform();
+		action.moveToElement(completeWebFormElement).build().perform(); //Move to the element
+		System.out.println("Moved to the element");
 		completeWebFormElement.click();
+		System.out.println("clicked Element");
 		driver.quit();
+		System.out.println("Driver Quit Successfully");
+		
+		int i = 10;
 
 	}
 	
