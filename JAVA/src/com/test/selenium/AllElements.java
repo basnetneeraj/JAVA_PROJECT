@@ -85,11 +85,7 @@ public class AllElements {
 		Assert.assertEquals(actualSuccessTextString, successsMessageTextString);
 		System.out.println("Step 12 - Page success message verified");
 		System.out.println("=====================END OF TEST=====================");
-		
-		
-		
-		
-		
+				
 	}
 		
 	@AfterTest
